@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="grid-wrapper">
+    <div class="image-col"></div>
+    <div class="form-col">
+        <div class="login-header">
+            <img src="unicorn.png" alt="Company Logo" class="login-header-icon">
+            <h1 class="login-header-title">UI Inicorn</h1>
+        </div>
+        <h2 class="login-header-title">Nice to see you again</h1>
+        <form class="login-form">
+            <div class="input-group">
+                <label for="email">Login</label>
+                <input type="text" id="email" placeholder="Email or phone number">
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input id="password-field" type="password" placeholder="Enter your password">
+                <button id="toggle-password" type="button">
+                    <i id="password-icon" class="fas fa-eye"></i>
+                </button>
+            </div>
+            <div class="actions">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                    
+                  </label>
+                  <h5 class="Remember">Remember me</h5> 
+                <a href="#">Forgot password?</a>
+            </div>
+            <div class="buttons">
+                <button type="submit" class="btn-primary">Sign in</button>
+                <hr style="margin: 40px 0;">
+                <button type="button" class="google-btn">
+                    <img src="google.png" alt="Google Icon">
+                    Or sign in With Google</button>
+                <div class="sign-up">
+                    Dont have an account? <a href="#">Sign up now</a>
+                </div>
+            </div>
+            
+        </form>
+       
+    </div>
+</div>
+<script src="js/script.js"></script>
+
+
+
+</body>
+</html>
